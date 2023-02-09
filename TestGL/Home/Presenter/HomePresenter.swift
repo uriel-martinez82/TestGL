@@ -10,10 +10,6 @@ class HomePresenter: HomePresenterProtocol {
     func startFetchingList() {
          interactor?.fetchList()
      }
-     
-     func showMovieController(navigationController: UINavigationController) {
-//         router?.pushToMovieScreen(navigationConroller:navigationController)
-     }
     
     func successRequest(list: ListModel) {
         self.listsModel = list

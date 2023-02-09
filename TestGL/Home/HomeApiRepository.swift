@@ -20,7 +20,6 @@ class HomeApiRepository: HomeRepositoryProtocol {
               return }
             let listsModel = listModel
             completion(listsModel)
-//            print(listModel[0].title)
         }
     }
     

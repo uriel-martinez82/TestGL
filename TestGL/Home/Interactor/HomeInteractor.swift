@@ -15,8 +15,4 @@ class HomeInteractor: HomeInteractorProtocol {
         }
     }
     
-    func listModelRequest() {
-//        let lists = presenter?.successRequest(list: ListModel)
-    }
-    
 }

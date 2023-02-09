@@ -24,7 +24,6 @@ class HomeView: UIViewController, HomeViewProtocol {
     
     func getListModels(listModel: ListModel) {
         self.list = listModel
-        print(list)
         self.tableView.reloadData()
     }
 

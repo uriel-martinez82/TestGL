@@ -25,14 +25,11 @@
 		8117F1B32994133C00BC0CF2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117F1AE2994133C00BC0CF2 /* HomePresenter.swift */; };
 		814881EF2993CDC30080B228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814881EE2993CDC30080B228 /* AppDelegate.swift */; };
 		814881F12993CDC30080B228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814881F02993CDC30080B228 /* SceneDelegate.swift */; };
-		814881F32993CDC30080B228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814881F22993CDC30080B228 /* ViewController.swift */; };
 		814881F82993CDC60080B228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814881F72993CDC60080B228 /* Assets.xcassets */; };
 		814881FB2993CDC60080B228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814881F92993CDC60080B228 /* LaunchScreen.storyboard */; };
 		814882062993CDC60080B228 /* TestGLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814882052993CDC60080B228 /* TestGLTests.swift */; };
 		814882102993CDC60080B228 /* TestGLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148820F2993CDC60080B228 /* TestGLUITests.swift */; };
 		814882122993CDC60080B228 /* TestGLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814882112993CDC60080B228 /* TestGLUITestsLaunchTests.swift */; };
-		814882242993F0040080B228 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814882222993F0040080B228 /* HomeViewController.swift */; };
-		814882252993F0040080B228 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814882232993F0040080B228 /* HomeViewController.xib */; };
 		81564F9E29941450005C1697 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81564F9C29941450005C1697 /* HomeTableViewCell.swift */; };
 		81564F9F29941450005C1697 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81564F9D29941450005C1697 /* HomeTableViewCell.xib */; };
 		81564FA129946089005C1697 /* HomeApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81564FA029946089005C1697 /* HomeApiRepository.swift */; };
@@ -81,7 +78,6 @@
 		814881EB2993CDC30080B228 /* TestGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814881EE2993CDC30080B228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814881F02993CDC30080B228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		814881F22993CDC30080B228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		814881F72993CDC60080B228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814881FA2993CDC60080B228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814881FC2993CDC60080B228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,8 +86,6 @@
 		8148820B2993CDC60080B228 /* TestGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8148820F2993CDC60080B228 /* TestGLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGLUITests.swift; sourceTree = "<group>"; };
 		814882112993CDC60080B228 /* TestGLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGLUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		814882222993F0040080B228 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		814882232993F0040080B228 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		81564F9C29941450005C1697 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		81564F9D29941450005C1697 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		81564FA029946089005C1697 /* HomeApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiRepository.swift; sourceTree = "<group>"; };
@@ -258,10 +252,7 @@
 				8117F1992994130000BC0CF2 /* Home */,
 				8117F16E29940FA900BC0CF2 /* Core */,
 				814881EE2993CDC30080B228 /* AppDelegate.swift */,
-				814882222993F0040080B228 /* HomeViewController.swift */,
-				814882232993F0040080B228 /* HomeViewController.xib */,
 				814881F02993CDC30080B228 /* SceneDelegate.swift */,
-				814881F22993CDC30080B228 /* ViewController.swift */,
 				814881F72993CDC60080B228 /* Assets.xcassets */,
 				814881F92993CDC60080B228 /* LaunchScreen.storyboard */,
 				814881FC2993CDC60080B228 /* Info.plist */,
@@ -439,7 +430,6 @@
 				814881FB2993CDC60080B228 /* LaunchScreen.storyboard in Resources */,
 				8171BD51299526F9002EC8BD /* DetailViewController.xib in Resources */,
 				814881F82993CDC60080B228 /* Assets.xcassets in Resources */,
-				814882252993F0040080B228 /* HomeViewController.xib in Resources */,
 				81564F9F29941450005C1697 /* HomeTableViewCell.xib in Resources */,
 				8117F1B02994133C00BC0CF2 /* HomeView.xib in Resources */,
 			);
@@ -569,7 +559,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814881F32993CDC30080B228 /* ViewController.swift in Sources */,
 				81564FA42994681A005C1697 /* ListModel.swift in Sources */,
 				8117F1AF2994133C00BC0CF2 /* HomeView.swift in Sources */,
 				8117F198299411A100BC0CF2 /* CoreRouter.swift in Sources */,
@@ -586,7 +575,6 @@
 				814881F12993CDC30080B228 /* SceneDelegate.swift in Sources */,
 				81564FA129946089005C1697 /* HomeApiRepository.swift in Sources */,
 				8117F1752994103A00BC0CF2 /* CoreModule.swift in Sources */,
-				814882242993F0040080B228 /* HomeViewController.swift in Sources */,
 				81564F9E29941450005C1697 /* HomeTableViewCell.swift in Sources */,
 				8117F197299411A100BC0CF2 /* CorePresenter.swift in Sources */,
 			);
