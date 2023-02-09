@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ListModelElement: Codable {
+    let title, description: String
+    let image: String
+}
+
+typealias ListModel = [ListModelElement]
